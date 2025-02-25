@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+@theme {
+    --color-primary: #4263eb;
+    --color-secondary: #63e6be;
+}
+@layer utilities {
+    .container {
+        @apply mx-auto px-5 sm:px-12
+    }
+}
