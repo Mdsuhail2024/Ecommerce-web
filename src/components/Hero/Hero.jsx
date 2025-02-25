@@ -45,7 +45,7 @@ const Hero = () => {
   };
   return (
     
-    <div className="w-full sm:min-h-[600px] min-h-[550px] bg-gray-100 dark:text-white  dark:bg-slate-950 relative overflow-hidden transition-all duration-3000 flex items-center">
+    <div className="w-full sm:min-h-[600px] mt-15 md:mt-20 min-h-[550px] bg-gray-100 dark:text-white  dark:bg-slate-950 relative overflow-hidden transition-all duration-3000 flex items-center">
       <div className="h-[700px] w-[700px] rounded-4xl bg-primary/40 shadow-2xl absolute -top-80 -right-5 rotate-[45deg]  "></div>
       <div className="container dark:text-slate-100 duration-100 ">
         <SlickSlider {...Settings}>
