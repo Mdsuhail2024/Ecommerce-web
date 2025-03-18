@@ -357,10 +357,11 @@ const BestSelling = () => {
         <h1 data-aos="fade-down" className='text-2xl md:text3xl lg:text-4xl font-[500] text-center mb-20  mt-10 md:mt-20'>Best selling </h1>
          <div className="flex flex-wrap gap-6 gap-y-10 md:gap-y-20 justify-between items-senter group">
         {BestSellingData.map((data) => (
-          <div className="w-[250px] md:w-[280px] h-[420px] mx-auto">
+          <div  key={data.id}
+          className="w-[250px] md:w-[280px] h-[420px] mx-auto">
             {/* <div  key={data.id}> */}
-           <Link  key={data.id} className='mx-auto '> 
-            <Link className='px-1 bg-[#00A098] text-white font-semibold ml-3'>best selling</Link>
+           <Link  className='mx-auto '> 
+            <span className='px-1 bg-[#00A098] text-white font-semibold ml-3'>best selling</span>
              <div className=" overflow-hidden w-[90%] h-[280px]  hover:w-[100%] duration-300 mt-4 ">
               <img src={data.img} alt="topProcut Image" className='object-cover ' />
             </div>

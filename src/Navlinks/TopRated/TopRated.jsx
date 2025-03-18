@@ -8,7 +8,7 @@ import Image4 from "../../assets/TopProcusts/bag.avif";
 import Image5 from "../../assets/TopProcusts/brownearbirds.webp";
 import Image6 from "../../assets/TopProcusts/cap.avif";
 import Image7 from "../../assets/TopProcusts/earbirds.webp";
-import Image8 from "../../assets/TopProcusts/grayjeans.avif";
+import Image8 from "../../assets/TopProcusts/grayJeans.avif";
 import Image9 from "../../assets/TopProcusts/handbag2.avif";
 import Image10 from "../../assets/TopProcusts/handbag.avif";
 import Image11 from "../../assets/TopProcusts/smartwatch.avif";
