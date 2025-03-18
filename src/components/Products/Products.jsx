@@ -17,7 +17,7 @@ const ProductsList = [
     },
     {
         id: 2,
-        name: "Googles",
+        name: "Goggles",
         color: "blakc",
         image: Image5,
         rating: 4.5,
@@ -38,14 +38,14 @@ const ProductsList = [
     },
     {
         id: 5,
-        name: "Googles",
+        name: "Goggles",
         color: "blakc",
         image: Image2,
         rating: 4.5,
     },
     {
         id: 6,
-        name: "Googles",
+        name: "Goggles",
         color: "blakc",
         image: Image4,
         rating: 4.5,
@@ -62,7 +62,7 @@ const Products = () => {
       </div>
    <div className='container flex justify-center sm:justify-between sm:items-center  pt-12 flex-wrap gap-5'>
     {ProductsList.map((data )=> (
-        <div data-aos='fade-left' key={data.id} className="flex flex-col ">
+        <div data-aos='fade-bottom' key={data.id} className="flex flex-col ">
             <img src={data.image} alt="Top Product Image" className='w-[180px] h-[220px] object-cover rounded-sm' />
              <h1 className='font-medium pt-2'>{data.name}</h1>
              <p className='text-xs text-gray-400'>{data.color}</p>

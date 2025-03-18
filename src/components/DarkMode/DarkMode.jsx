@@ -23,10 +23,10 @@ export const DarkMode = () => {
 
 
   return (
-    <div className='group relative flex items-center'>
-      <button onClick={toggleTheme}>
+    <div className='group relative flex items-center '>
+      <button onClick={toggleTheme} className='hidden md:block'>
         <img src={lightImg} alt="Light Img" className={`w-12 shadow-2xl ${theme === "light"? "opacity-100" : "opacity-0"} duration-500`} />
-        <img src={darkImg} alt="Dark Img" className={`w-12 shadow-2xl ${theme === "light"? "opacity-0" : "opacity-100"} absolute duration-500 top-[5px] md:top-[0.5px]`} />
+        <img src={darkImg} alt="Dark Img" className={`w-12 shadow-2xl ${theme === "light"? "opacity-0" : "opacity-100"} absolute duration-500 top-[5px] md:top-[3px]`} />
       </button>
     </div>
   )

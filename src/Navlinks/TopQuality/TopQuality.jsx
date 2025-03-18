@@ -307,7 +307,7 @@ const TopQuality = () => {
   return (
     <div className="bg-white/50 dark:bg-black/85 dark:text-white pt-20 pb-30">
       <div className="container ">
-        <h1 data-aos="fade-down" className='text-2xl md:text3xl lg:text-4xl font-[500] text-center mb-20'>Top Quality</h1>
+        <h1 data-aos="fade-down" className='text-2xl md:text3xl lg:text-4xl font-[500] text-center mb-20  mt-10 md:mt-20'>Top Quality</h1>
          <div className="flex flex-wrap gap-6 gap-y-10 md:gap-y-20 justify-between items-senter group">
         {TopQualityData.map((data) => (
           <div className="w-[250px] md:w-[280px] h-[420px] mx-auto">

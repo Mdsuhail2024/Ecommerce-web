@@ -171,7 +171,7 @@ const Footer = () => {
                     </div>
                     <div className='flex items-center justify-center md:justify-end gap-2 text-slate-400 py-2'>
                        <a href="https://www.google.co.in/maps/@24.4328289,85.5212746,14.25z?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"> <IoLocationSharp size="25" /></a>
-                        <span className='text-xs text-slate-400' >Jharkhand, Haiderabad, Mumbai</span>
+                        <span className='text-xs text-slate-400' >Jharkhand, Hyderabad, Mumbai</span>
                     </div>
 
                     <div className='flex items-center justify-center md:justify-end gap-2 text-slate-400 '>

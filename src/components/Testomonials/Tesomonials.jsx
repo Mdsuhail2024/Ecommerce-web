@@ -84,7 +84,7 @@ const Tesomonials = () => {
         <div  className="container py-18">
             <div data-aos="fade-up" className=" text-center">
                 <p className='text-primary text-sm'>What our customers are saying</p>
-                <h1 className='text-4xl font-bold'>Testomonials</h1>
+                <h1 className='text-4xl font-bold'>Testimonials</h1>
                 <p className='text-sm text-gray-400 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, magni qui assumenda neque consequuntur libero ipsam dolore hic obcaecati. Totam, perspiciatis ut!</p>
             </div>
 
