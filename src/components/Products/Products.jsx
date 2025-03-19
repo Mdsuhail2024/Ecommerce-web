@@ -57,7 +57,7 @@ const Products = () => {
     <div data-aos="fade-up" className=' bg-white dark:bg-slate-900 dark:text-white  pb-10 '>
       <div className="container pt-12 flex flex-col gap-0 items-center ">
         <p className='text-primary text-sm'>Top Selling Products for you</p>
-        <h1 className='text-4xl font-bold'>Produts</h1>
+        <h1 className='text-4xl font-bold'>Products</h1>
         <p className='text-sm text-gray-400'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea voluptates ipsum necessitatibus!</p>
       </div>
    <div className='container flex justify-center sm:justify-between sm:items-center  pt-12 flex-wrap gap-5'>
